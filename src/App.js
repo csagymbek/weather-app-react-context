@@ -1,10 +1,9 @@
 import React from "react";
-import Wrapper from "./components/Wrapper";
+import { Main } from "./components/Main";
+import { Wrapper } from "./components/Wrapper";
 
-export default function App() {
-  return (
-    <div>
-      <Wrapper></Wrapper>
-    </div>
-  );
-}
+export const App = () => (
+  <Wrapper>
+    <Main />
+  </Wrapper>
+);
